@@ -1,0 +1,49 @@
+{{ define "main" }}
+<article class="tool-page">
+  <div class="container">
+    <nav class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{ "/" | relURL }}" itemprop="item"><span itemprop="name">Home</span></a>
+        <meta itemprop="position" content="1">
+      </span>
+      <span class="sep">/</span>
+      <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{ "/tools/" | relURL }}" itemprop="item"><span itemprop="name">Tools</span></a>
+        <meta itemprop="position" content="2">
+      </span>
+      <span class="sep">/</span>
+      <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">{{ index (split .Title " - ") 0 }}</span>
+        <meta itemprop="position" content="3">
+      </span>
+    </nav>
+
+    <div class="tool-header">
+      <h1>{{ .Title }}</h1>
+      <p class="tool-description">{{ .Description }}</p>
+    </div>
+
+    {{ partial "ad-slot.html" . }}
+
+    <div class="tool-body">
+      <div class="tool-widget" id="tool-widget">
+        <div class="tool-loading">
+          <div class="spinner"></div>
+          <p>Loading tool...</p>
+        </div>
+      </div>
+    </div>
+
+    {{ partial "ad-slot.html" . }}
+
+    <div class="tool-content">
+      {{ .Content }}
+    </div>
+
+    {{ partial "related-tools.html" . }}
+  </div>
+</article>
+
+{{ $jsPath := printf "js/%s.js" .Params.tool_slug }}
+<script src="{{ $jsPath | relURL }}"></script>
+{{ end }}

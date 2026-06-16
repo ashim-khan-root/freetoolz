@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article class="blog-post" itemscope itemtype="https://schema.org/Article">
+  <div class="container">
+    <nav class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{ "/" | relURL }}" itemprop="item"><span itemprop="name">Home</span></a>
+        <meta itemprop="position" content="1">
+      </span>
+      <span class="sep">/</span>
+      <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{ "/blog/" | relURL }}" itemprop="item"><span itemprop="name">Blog</span></a>
+        <meta itemprop="position" content="2">
+      </span>
+      <span class="sep">/</span>
+      <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">{{ .Title }}</span>
+        <meta itemprop="position" content="3">
+      </span>
+    </nav>
+
+    <div class="blog-post-header">
+      <h1 itemprop="headline">{{ .Title }}</h1>
+      <div class="blog-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "January 2, 2006" }}</time>
+        &middot; <span itemprop="timeRequired">{{ .ReadingTime }} min read</span>
+      </div>
+    </div>
+
+    <div class="blog-body" itemprop="articleBody">
+      {{ .Content }}
+    </div>
+
+    {{ partial "ad-slot.html" . }}
+
+    {{ partial "related-tools.html" . }}
+  </div>
+</article>
+{{ end }}

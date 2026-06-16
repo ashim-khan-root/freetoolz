@@ -1,0 +1,58 @@
+{{ define "main" }}
+{{ $toolCat := hugo.Data.tool_categories }}
+{{ $currentPath := .File.Dir | strings.TrimSuffix "/" }}
+{{ $cat := where hugo.Data.categories "page_slug" $currentPath | first 1 }}
+
+<section class="tools-listing">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="sep">/</span>
+      <a href="{{ "/tools/" | relURL }}">Tools</a>
+      <span class="sep">/</span>
+      <span>{{ .Title }}</span>
+    </nav>
+
+    <div class="page-header" style="text-align:left;padding-bottom:24px">
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Description }}</p>
+    </div>
+
+    <div class="tool-content">
+      {{ .Content }}
+    </div>
+
+    {{ partial "ad-slot.html" . }}
+
+    {{ with index $cat 0 }}
+    {{ $catId := .id }}
+    <h2 style="font-family:var(--font-display);font-size:1.3rem;margin:32px 0 20px">{{ .icon | safeHTML }} All {{ .name }}</h2>
+    <div class="tools-grid">
+      {{ range where site.Pages "Params.tool_slug" "!=" nil }}
+        {{ if eq (index $toolCat .Params.tool_slug) $catId }}
+        <a href="{{ .RelPermalink }}" class="tool-card reveal">
+          <div class="tool-card-icon">{{ with .Params.icon }}{{ . | safeHTML }}{{ else }}&#x1F9F0;{{ end }}</div>
+          <h3>{{ index (split .Title " - ") 0 }}</h3>
+          <p>{{ .Description }}</p>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ partial "ad-slot.html" . }}
+
+    <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--border)">
+      <h2 style="font-family:var(--font-display);font-size:1.1rem;margin-bottom:16px">Browse All Categories</h2>
+      <div style="display:flex;flex-wrap:wrap;gap:10px">
+        {{ range sort hugo.Data.categories "order" }}
+        <a href="/{{ .page_slug }}/" class="cat-nav-item">
+          <span class="cat-nav-icon">{{ .icon | safeHTML }}</span>
+          <span class="cat-nav-name">{{ .name }}</span>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

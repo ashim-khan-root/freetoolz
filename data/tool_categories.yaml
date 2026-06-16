@@ -1,0 +1,98 @@
+# Text Tools
+word-counter: text-tools
+case-converter: text-tools
+markdown-editor: text-tools
+text-diff: text-tools
+url-encoder: text-tools
+base64-encoder: text-tools
+
+# Developer Tools
+json-formatter: dev-tools
+yaml-json: dev-tools
+html-minifier: dev-tools
+css-minifier: dev-tools
+js-minifier: dev-tools
+sql-formatter: dev-tools
+hash-generator: dev-tools
+timestamp-converter: dev-tools
+color-picker: dev-tools
+password-generator: dev-tools
+
+# Health Calculators
+bmi-calculator: health
+bmr-calculator: health
+body-fat-calculator: health
+calorie-calculator: health
+due-date-calculator: health
+water-intake-calculator: health
+
+# Construction Calculators
+concrete-calculator: construction
+rebar-calculator: construction
+roofing-calculator: construction
+paint-calculator: construction
+flooring-calculator: construction
+brick-calculator: construction
+stair-calculator: construction
+
+# Generators & Converters
+qr-generator: media
+image-resizer: media
+unit-converter: media
+percentage-calculator: media
+
+# CCTV & Security Tools
+raid-calculator: cctv
+cctv-storage-calculator: cctv
+bandwidth-calculator: cctv
+poe-calculator: cctv
+ups-calculator: cctv
+fov-calculator: cctv
+
+# Network Tools
+subnet-calculator: network
+mac-lookup: network
+bandwidth-converter: network
+port-lookup: network
+
+# Time & Date Tools
+age-calculator: time-date
+date-difference: time-date
+timezone-converter: time-date
+countdown-timer: time-date
+
+# Developer Utilities
+uuid-generator: dev-utils
+lorem-ipsum: dev-utils
+list-randomizer: dev-utils
+password-strength: dev-utils
+
+# Math & Geometry
+percentage-calc: math
+fraction-calc: math
+area-volume-calc: math
+prime-checker: math
+
+# Finance Calculators
+emi-calculator: finance
+compound-interest-calculator: finance
+roi-calculator: finance
+discount-calculator: finance
+tip-calculator: finance
+
+# Unit Converters
+length-converter: unit-converters
+mass-converter: unit-converters
+temperature-converter: unit-converters
+speed-converter: unit-converters
+area-converter: unit-converters
+volume-converter: unit-converters
+data-storage-converter: unit-converters
+
+# SEO Tools
+meta-tag-generator: seo
+keyword-density-checker: seo
+robots-txt-generator: seo
+sitemap-generator: seo
+heading-analyzer: seo
+html-sitemap-generator: seo

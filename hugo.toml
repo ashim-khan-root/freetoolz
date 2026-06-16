@@ -1,0 +1,28 @@
+baseURL = 'https://ashim-khan-root.github.io/freetoolz/'
+locale = 'en-US'
+title = 'FreeToolz - Free Online Tools & Utilities'
+theme = 'freetoolz'
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  description = 'Free online tools for everyday tasks. Image resizer, QR code generator, word counter, password generator, color picker and more. Simple, fast, and 100% free.'
+  author = 'FreeToolz'
+  google_analytics = ''
+  adsense_id = ''
+
+  [params.seo]
+    og_image = '/images/og-default.png'
+    twitter_site = '@freetoolz'
+
+[permalinks]
+  tools = '/tools/:slug'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true

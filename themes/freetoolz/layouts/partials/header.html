@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="container">
+    <a href="{{ site.Home.RelPermalink }}" class="logo">
+      <span class="logo-icon">
+        <img src="{{ "checked.png" | relURL }}" alt="FreeToolz" width="32" height="32">
+      </span>
+      <span class="logo-text">Free<span>Toolz</span></span>
+    </a>
+    <nav class="main-nav">
+      {{ range first 3 hugo.Data.categories }}
+      <a href="{{ printf "%s/" .page_slug | relURL }}" class="nav-link">{{ .icon | safeHTML }} {{ .name }}</a>
+      {{ end }}
+      <span class="nav-sep"></span>
+      <a href="{{ "tools/" | relURL }}" class="nav-link">All Tools</a>
+      <a href="{{ "blog/" | relURL }}" class="nav-link">Blog</a>
+    </nav>
+  </div>
+</header>

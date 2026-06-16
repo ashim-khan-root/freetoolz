@@ -1,0 +1,56 @@
+{{ define "main" }}
+<section class="tools-listing">
+  <div class="container">
+    <div class="page-header">
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Description }}</p>
+    </div>
+
+    <div class="hero-search" style="max-width:560px;margin:0 auto 32px">
+      <div class="search-wrapper">
+        <span class="search-icon">&#x1F50D;</span>
+        <input type="text" id="tool-search" class="search-input" placeholder="Search tools..." autocomplete="off">
+      </div>
+    </div>
+
+    <div class="cat-nav" id="cat-nav" style="padding-top:0">
+      <div class="cat-nav-list">
+        <button class="cat-nav-item active" data-cat="all">All Tools</button>
+        {{ range sort hugo.Data.categories "order" }}
+        <button class="cat-nav-item" data-cat="{{ .id }}">
+          <span class="cat-nav-icon">{{ .icon | safeHTML }}</span>
+          <span class="cat-nav-name">{{ .name }}</span>
+        </button>
+        {{ end }}
+      </div>
+    </div>
+
+    {{ partial "ad-slot.html" . }}
+
+    <div class="no-results" id="no-results">
+      <div class="no-results-icon">&#x1F50D;</div>
+      <h3>No tools found</h3>
+      <p>Try a different search term or category.</p>
+    </div>
+
+    {{ $toolCat := hugo.Data.tool_categories }}
+    {{ range sort hugo.Data.categories "order" }}
+    {{ $slug := .id }}
+    <section class="cat-section reveal" id="cat-{{ $slug }}">
+      <h2 class="cat-heading">{{ .icon | safeHTML }} {{ .name }} <span class="cat-heading-count" id="count-{{ $slug }}">0</span></h2>
+      <div class="tools-grid">
+        {{ range where site.Pages "Params.tool_slug" "!=" nil }}
+          {{ if eq (index $toolCat .Params.tool_slug) $slug }}
+          <a href="{{ .RelPermalink }}" class="tool-card">
+            <div class="tool-card-icon">{{ with .Params.icon }}{{ . | safeHTML }}{{ else }}&#x1F9F0;{{ end }}</div>
+            <h3>{{ index (split .Title " - ") 0 }}</h3>
+            <p>{{ .Description }}</p>
+          </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

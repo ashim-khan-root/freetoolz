@@ -1,0 +1,77 @@
+- id: text-tools
+  name: "Text Tools"
+  icon: "&#x1F4DD;"
+  page_slug: "text-tools"
+  order: 1
+
+- id: dev-tools
+  name: "Developer Tools"
+  icon: "&#x1F4BB;"
+  page_slug: "developer-tools"
+  order: 2
+
+- id: health
+  name: "Health Calculators"
+  icon: "&#x2764;&#xFE0F;"
+  page_slug: "health-calculators"
+  order: 3
+
+- id: construction
+  name: "Construction Calculators"
+  icon: "&#x1F3D7;&#xFE0F;"
+  page_slug: "construction-calculators"
+  order: 4
+
+- id: media
+  name: "Generators & Converters"
+  icon: "&#x1F504;"
+  page_slug: "generators-converters"
+  order: 5
+
+- id: cctv
+  name: "CCTV & Security"
+  icon: "&#x1F4E1;"
+  page_slug: "cctv-security"
+  order: 6
+
+- id: network
+  name: "Network Tools"
+  icon: "&#x1F4E1;"
+  page_slug: "network-tools"
+  order: 7
+
+- id: time-date
+  name: "Time & Date"
+  icon: "&#x1F553;"
+  page_slug: "time-date"
+  order: 8
+
+- id: dev-utils
+  name: "Developer Utilities"
+  icon: "&#x1F6E0;"
+  page_slug: "developer-utilities"
+  order: 9
+
+- id: math
+  name: "Math & Geometry"
+  icon: "&#x1F522;"
+  page_slug: "math-geometry"
+  order: 10
+
+- id: finance
+  name: "Finance Calculators"
+  icon: "&#x1F4B0;"
+  page_slug: "finance"
+  order: 11
+
+- id: unit-converters
+  name: "Unit Converters"
+  icon: "&#x1F504;"
+  page_slug: "unit-converters"
+  order: 12
+
+- id: seo
+  name: "SEO Tools"
+  icon: "&#x1F50D;"
+  page_slug: "seo-tools"
+  order: 13

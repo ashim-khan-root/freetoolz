@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="blog-listing">
+  <div class="container">
+    <div class="blog-header">
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Description }}</p>
+    </div>
+
+    {{ partial "ad-slot.html" . }}
+
+    <div class="blog-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      <a href="{{ .RelPermalink }}" class="blog-card reveal">
+        <span class="blog-card-date">{{ .Date.Format "January 2, 2006" }}</span>
+        <h2>{{ .Title }}</h2>
+        <p>{{ with .Params.summary }}{{ . }}{{ else }}{{ .Description }}{{ end }}</p>
+        {{ with .Params.tags }}
+        <div class="blog-tags">
+          {{ range . }}
+          <span class="blog-tag">{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

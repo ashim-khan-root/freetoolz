@@ -1,0 +1,21 @@
+/* Tool-specific overrides loaded on tool pages */
+.tool-card h2, .tool-card h3 {
+  font-size: 0.95rem;
+}
+
+.tool-card .tool-card-icon {
+  font-size: 1.6rem;
+}
+
+.tool-card p {
+  font-size: 0.82rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Hero grid on homepage */
+.hero-grid .tool-card h2 {
+  font-size: 0.9rem;
+}

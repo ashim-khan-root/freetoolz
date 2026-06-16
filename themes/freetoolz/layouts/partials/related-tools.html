@@ -1,0 +1,16 @@
+{{ $tools := where site.Pages "Params.tool_slug" "!=" nil }}
+{{ $related := where $tools "Permalink" "ne" .Permalink | first 6 }}
+{{ if gt (len $related) 0 }}
+<section class="related-tools">
+  <h2>More Free Tools</h2>
+  <div class="tools-grid">
+    {{ range $related }}
+    <a href="{{ .RelPermalink }}" class="tool-card">
+      <div class="tool-card-icon">{{ with .Params.icon }}{{ . | safeHTML }}{{ else }}&#x1F9F0;{{ end }}</div>
+      <h3>{{ index (split .Title " - ") 0 }}</h3>
+      <p>{{ .Description }}</p>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
