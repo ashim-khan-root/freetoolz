@@ -10,6 +10,7 @@
       <span></span><span></span><span></span>
     </button>
     <nav class="main-nav" id="main-nav">
+      <button class="nav-close" id="nav-close" aria-label="Close navigation menu">&times;</button>
       {{ range first 3 hugo.Data.categories }}
       <a href="{{ printf "%s/" .page_slug | relURL }}" class="nav-link" aria-label="{{ .name }}">{{ .icon | safeHTML }} {{ .name }}</a>
       {{ end }}

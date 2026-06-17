@@ -171,6 +171,7 @@
     var btn = document.getElementById('hamburger');
     var nav = document.getElementById('main-nav');
     var overlay = document.getElementById('nav-overlay');
+    var closeBtn = document.getElementById('nav-close');
     if (!btn || !nav) return;
 
     function toggle(e) {
@@ -190,6 +191,7 @@
 
     btn.addEventListener('click', toggle);
     if (overlay) overlay.addEventListener('click', close);
+    if (closeBtn) closeBtn.addEventListener('click', close);
 
     /* Close on Escape */
     document.addEventListener('keydown', function (e) {
