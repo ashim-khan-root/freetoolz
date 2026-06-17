@@ -697,16 +697,15 @@ main { flex: 1; }
 .cat-dropdown-menu {
   display: none;
   position: absolute;
-  top: 100%;
+  top: calc(100% + 12px);
   left: 0;
   right: 0;
   background: var(--bg-card-solid);
   border-top: 3px solid var(--primary);
   border-bottom: 1px solid var(--border);
   box-shadow: var(--shadow-lg);
-  z-index: 50;
+  z-index: 150;
   padding: 20px 0;
-  margin-top: 4px;
 }
 .cat-dropdown-menu-grid {
   display: grid;
