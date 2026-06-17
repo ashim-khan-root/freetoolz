@@ -170,37 +170,19 @@
   function initHamburger() {
     var btn = document.getElementById('hamburger');
     var nav = document.getElementById('main-nav');
-    var overlay = document.getElementById('nav-overlay');
-    var closeBtn = document.getElementById('nav-close');
     if (!btn || !nav) return;
 
-    function toggle(e) {
+    btn.addEventListener('click', function (e) {
       e.stopPropagation();
-      var open = nav.classList.toggle('open');
-      btn.classList.toggle('open', open);
-      if (overlay) overlay.classList.toggle('open', open);
-      document.body.style.overflow = open ? 'hidden' : '';
-    }
-
-    function close() {
-      nav.classList.remove('open');
-      btn.classList.remove('open');
-      if (overlay) overlay.classList.remove('open');
-      document.body.style.overflow = '';
-    }
-
-    btn.addEventListener('click', toggle);
-    if (overlay) overlay.addEventListener('click', close);
-    if (closeBtn) closeBtn.addEventListener('click', close);
-
-    /* Close on Escape */
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') close();
+      nav.classList.toggle('open');
+      btn.classList.toggle('open');
     });
 
-    /* Close on nav link click */
     nav.querySelectorAll('.nav-link').forEach(function (link) {
-      link.addEventListener('click', close);
+      link.addEventListener('click', function () {
+        nav.classList.remove('open');
+        btn.classList.remove('open');
+      });
     });
   }
 
