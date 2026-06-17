@@ -846,7 +846,7 @@ main { flex: 1; }
 .page-header p { color: var(--text-secondary); margin-top: 8px; font-size: 1.05rem; text-wrap: pretty; }
 
 /* Tools Listing */
-.tools-listing { padding-bottom: 60px; }
+.tools-listing { padding: 40px 0 60px; }
 
 /* No results */
 .no-results {
