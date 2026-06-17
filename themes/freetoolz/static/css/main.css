@@ -693,6 +693,19 @@ main { flex: 1; }
 
 
 
+/* Mobile categories list (hidden on desktop) */
+.mobile-cat-list {
+  display: none;
+}
+.mobile-cat-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-tertiary);
+  padding: 16px 20px 8px;
+}
+
 /* Responsive nav */
 @media (max-width: 900px) {
   .site-header .container { flex-wrap: wrap; }
@@ -714,6 +727,14 @@ main { flex: 1; }
     border-radius: var(--radius-sm);
   }
   .nav-sep { display: none; }
+  .mobile-cat-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .mobile-cat-list .nav-link {
+    padding-left: 24px;
+  }
 
   .theme-toggle {
     align-self: flex-start;
