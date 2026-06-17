@@ -20,7 +20,7 @@ The formula is straightforward, but BMI has both strengths and limitations that 
 
 ## How to Calculate BMI
 
-You can use our [free BMI calculator](/tools/bmi-calculator/) for an instant result, but here's how the math works:
+You can use our [free BMI calculator]({{< relref "/tools/bmi-calculator" >}}) for an instant result, but here's how the math works:
 
 **Metric formula:** BMI = weight (kg) ÷ height² (m²)
 
@@ -58,7 +58,7 @@ BMI is a useful screening tool, but it has important limitations:
 
 For a more complete picture of your health, consider:
 
-- **Body fat percentage** — Use our [body fat calculator](/tools/body-fat-calculator/) for an estimate using the US Navy method
+- **Body fat percentage** — Use our [body fat calculator]({{< relref "/tools/body-fat-calculator" >}}) for an estimate using the US Navy method
 - **Waist circumference** — Measures abdominal fat, an independent health risk factor
 - **Waist-to-hip ratio** — Compares waist and hip measurements
 
@@ -66,8 +66,8 @@ For a more complete picture of your health, consider:
 
 If your BMI falls outside the healthy range, small consistent changes make a difference:
 
-- Adjust your daily calorie intake with our [calorie calculator](/tools/calorie-calculator/)
-- Know your [basal metabolic rate](/tools/bmr-calculator/) to set the right calorie target
+- Adjust your daily calorie intake with our [calorie calculator]({{< relref "/tools/calorie-calculator" >}})
+- Know your [basal metabolic rate]({{< relref "/tools/bmr-calculator" >}}) to set the right calorie target
 - Combine diet changes with regular physical activity
 - Aim for 0.5–1 kg (1–2 lbs) per week weight change — sustainable and healthy
 
@@ -83,8 +83,8 @@ No — BMI doesn't distinguish muscle from fat. Athletes with high muscle mass o
 Yes. Older adults tend to lose muscle and bone density, so BMI may underestimate body fat. Waist circumference is a better metric for seniors.
 
 **What's the difference between BMI and body fat percentage?**  
-BMI estimates body fat using only height and weight. Body fat percentage directly measures how much of your weight is fat. Our [body fat calculator](/tools/body-fat-calculator/) uses the US Navy formula for a more accurate picture.
+BMI estimates body fat using only height and weight. Body fat percentage directly measures how much of your weight is fat. Our [body fat calculator]({{< relref "/tools/body-fat-calculator" >}}) uses the US Navy formula for a more accurate picture.
 
 ## Summary
 
-BMI is a useful starting point for understanding your health, but it's not the whole picture. Use it as one data point alongside other measurements. Our free [BMI calculator](/tools/bmi-calculator/) gives you an instant result with a visual gauge and your healthy weight range.
+BMI is a useful starting point for understanding your health, but it's not the whole picture. Use it as one data point alongside other measurements. Our free [BMI calculator]({{< relref "/tools/bmi-calculator" >}}) gives you an instant result with a visual gauge and your healthy weight range.

@@ -4,10 +4,10 @@
     '<div class="pw-output-section">' +
     '<div class="pw-display">' +
     '<input type="text" id="pw-output" readonly value="">' +
-    '<button onclick="copyPassword()" class="pw-btn-icon" title="Copy to clipboard">' +
+    '<button onclick="window.__pwCopy()" class="pw-btn-icon" title="Copy to clipboard">' +
     '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>' +
     '</button>' +
-    '<button onclick="regenerate()" class="pw-btn-icon" title="Generate new password">' +
+    '<button onclick="window.__pwRegen()" class="pw-btn-icon" title="Generate new password">' +
     '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>' +
     '</button>' +
     '</div>' +
@@ -30,7 +30,7 @@
     '<label class="pw-checkbox-label"><input type="checkbox" id="pw-numbers" checked> <span>0-9</span></label>' +
     '<label class="pw-checkbox-label"><input type="checkbox" id="pw-symbols" checked> <span>!@#$%^&*</span></label>' +
     '</div>' +
-    '<button onclick="regenerate()" class="pw-generate-btn" id="pw-generate-btn">Generate Password</button>' +
+    '<button onclick="window.__pwRegen()" class="pw-generate-btn" id="pw-generate-btn">Generate Password</button>' +
     '</div>' +
     '</div>';
 
@@ -162,7 +162,7 @@
     label.style.color = level.color;
   }
 
-  window.copyPassword = function () {
+  window.__pwCopy = function () {
     var input = document.getElementById('pw-output');
     var toast = document.getElementById('pw-copy-toast');
     if (!input.value || input.value === 'Select at least one type') return;
@@ -179,7 +179,7 @@
     });
   };
 
-  window.regenerate = function () {
+  window.__pwRegen = function () {
     generatePassword();
   };
 

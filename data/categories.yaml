@@ -36,7 +36,7 @@
 
 - id: network
   name: "Network Tools"
-  icon: "&#x1F4E1;"
+  icon: "&#x1F578;&#xFE0F;"
   page_slug: "network-tools"
   order: 7
 

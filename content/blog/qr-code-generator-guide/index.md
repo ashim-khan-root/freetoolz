@@ -18,7 +18,7 @@ QR stands for "Quick Response." These two-dimensional barcodes can be scanned by
 
 ## How to Create a QR Code
 
-Creating a QR code takes seconds with our [QR code generator](/tools/qr-generator/):
+Creating a QR code takes seconds with our [QR code generator]({{< relref "/tools/qr-generator" >}}):
 
 1. Enter a URL or text
 2. Click Generate
@@ -69,7 +69,7 @@ QR codes have built-in error correction that allows them to be scanned even when
 QR codes themselves never expire — they're just a visual pattern. However, if the QR code links to a URL and that URL stops working, the code becomes inactive. Use permanent links when possible.
 
 **Can I customize QR codes?**  
-Yes. Many tools let you change colors, add logos to the center, or use custom patterns. Our [QR code generator](/tools/qr-generator/) focuses on clean, scannable codes with high reliability.
+Yes. Many tools let you change colors, add logos to the center, or use custom patterns. Our [QR code generator]({{< relref "/tools/qr-generator" >}}) focuses on clean, scannable codes with high reliability.
 
 **What's the difference between standard QR and QR with logo?**  
 A QR code with a logo has reduced error correction capacity because the logo covers part of the code. For most marketing use cases, a standard QR code at 15% error correction is the best balance of reliability and data capacity.
@@ -79,4 +79,4 @@ Up to 3 KB of data for standard QR codes (version 40). For URLs, this is never a
 
 ## Summary
 
-QR codes are a simple, effective way to bridge physical and digital experiences. Use our [free QR code generator](/tools/qr-generator/) to create custom QR codes for URLs and text, downloadable as high-quality PNG images.
+QR codes are a simple, effective way to bridge physical and digital experiences. Use our [free QR code generator]({{< relref "/tools/qr-generator" >}}) to create custom QR codes for URLs and text, downloadable as high-quality PNG images.

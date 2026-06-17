@@ -20,7 +20,7 @@ The standard method is **Naegele's Rule**, which estimates the due date as 40 we
 
 If you know your conception date, the due date is approximately 266 days (38 weeks) from conception.
 
-Our [due date calculator](/tools/due-date-calculator/) handles both methods automatically and shows your weekly pregnancy timeline.
+Our [due date calculator]({{< relref "/tools/due-date-calculator" >}}) handles both methods automatically and shows your weekly pregnancy timeline.
 
 ## Due Date Accuracy
 
@@ -47,7 +47,7 @@ Later ultrasounds are less reliable for dating because babies grow at different 
 | Second | Week 13-27 | Baby begins moving, gender can be determined, quickening felt |
 | Third | Week 28-40 | Rapid growth, baby positions for birth, Braxton Hicks contractions |
 
-Our [due date calculator](/tools/due-date-calculator/) breaks down each week with key milestones.
+Our [due date calculator]({{< relref "/tools/due-date-calculator" >}}) breaks down each week with key milestones.
 
 ## Factors That Can Affect Due Date
 
@@ -68,4 +68,4 @@ While the exact date is uncertain, you can prepare:
 
 ## Summary
 
-Your due date is an estimate, not a guarantee. Use our [due date calculator](/tools/due-date-calculator/) to get your estimated date, track weekly milestones, and prepare for your baby's arrival.
+Your due date is an estimate, not a guarantee. Use our [due date calculator]({{< relref "/tools/due-date-calculator" >}}) to get your estimated date, track weekly milestones, and prepare for your baby's arrival.

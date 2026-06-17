@@ -4,8 +4,10 @@
   {{ partial "head.html" . }}
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
   {{ partial "header.html" . }}
-  <main>
+  <div class="nav-overlay" id="nav-overlay"></div>
+  <main id="main-content">
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}

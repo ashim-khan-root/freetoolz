@@ -106,6 +106,6 @@ Here's what a complete set of meta tags looks like:
 
 ## Generate Your Meta Tags
 
-Use our [free meta tag generator](/tools/meta-tag-generator/) to create optimized meta tags in seconds. Just fill in your page details and copy the ready-to-use HTML.
+Use our [free meta tag generator]({{< relref "/tools/meta-tag-generator" >}}) to create optimized meta tags in seconds. Just fill in your page details and copy the ready-to-use HTML.
 
 Good meta tags are a small investment that pays huge dividends in search visibility and social sharing. Take five minutes to optimize yours today.

@@ -24,7 +24,7 @@ Using personal information like your name, birthday, or pet's name is the first 
 
 ## How to Use Our Password Generator
 
-Our [password generator](/tools/password-generator/) lets you customize length from 4 to 64 characters, toggle uppercase, lowercase, numbers, and symbols, and exclude similar characters like 1,l,I,0,O. For maximum security, generate a 16+ character password with all character types enabled.
+Our [password generator]({{< relref "/tools/password-generator" >}}) lets you customize length from 4 to 64 characters, toggle uppercase, lowercase, numbers, and symbols, and exclude similar characters like 1,l,I,0,O. For maximum security, generate a 16+ character password with all character types enabled.
 
 ## Password Managers: The Real Solution
 
@@ -47,7 +47,7 @@ Always enable two-factor authentication wherever available. This adds a second v
 ## FAQ
 
 **What makes a password strong?**  
-Length is the most important factor. A 16-character password with mixed case, numbers, and symbols is exponentially harder to crack than an 8-character one. Our [password generator](/tools/password-generator/) creates strong passwords instantly.
+Length is the most important factor. A 16-character password with mixed case, numbers, and symbols is exponentially harder to crack than an 8-character one. Our [password generator]({{< relref "/tools/password-generator" >}}) creates strong passwords instantly.
 
 **Should I use a password manager?**  
 Absolutely. Password managers generate and store unique passwords for every site, so you only need to remember one master password. They also auto-fill login forms and alert you to compromised accounts.
@@ -60,4 +60,4 @@ Only change passwords when there's a known breach or when someone might have acc
 
 ## Summary
 
-Stop relying on memorable but weak passwords. Use our [free password generator](/tools/password-generator/) to create strong, unique passwords for every account, and pair them with a password manager and two-factor authentication for complete security.
+Stop relying on memorable but weak passwords. Use our [free password generator]({{< relref "/tools/password-generator" >}}) to create strong, unique passwords for every account, and pair them with a password manager and two-factor authentication for complete security.

@@ -97,6 +97,6 @@ The 10-year loan has a much lower EMI but costs over ₹3 lakh more in total int
 
 ## Use Our EMI Calculator
 
-Plan your loan with our [free EMI calculator](/tools/emi-calculator/). See your monthly payment, total interest, and full amortization schedule instantly. Just enter the loan amount, interest rate, and tenure.
+Plan your loan with our [free EMI calculator]({{< relref "/tools/emi-calculator" >}}). See your monthly payment, total interest, and full amortization schedule instantly. Just enter the loan amount, interest rate, and tenure.
 
 Understanding EMIs and amortization helps you make smarter borrowing decisions. Before taking any loan, always check the numbers and compare options.

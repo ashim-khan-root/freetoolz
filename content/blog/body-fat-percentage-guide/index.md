@@ -27,7 +27,7 @@ The US Navy method uses circumference measurements to estimate body fat. It's on
 **For men, it uses:** height, neck circumference, and waist circumference
 **For women, it adds:** hip circumference
 
-Our [body fat calculator](/tools/body-fat-calculator/) implements this method instantly. You just need a tape measure.
+Our [body fat calculator]({{< relref "/tools/body-fat-calculator" >}}) implements this method instantly. You just need a tape measure.
 
 ### Other Measurement Methods
 
@@ -70,7 +70,7 @@ For example, an athlete might have a BMI of 28 (overweight) but a body fat perce
 
 ## How to Lower Body Fat
 
-- **Calorie deficit** — Use our [calorie calculator](/tools/calorie-calculator/) to find the right intake
+- **Calorie deficit** — Use our [calorie calculator]({{< relref "/tools/calorie-calculator" >}}) to find the right intake
 - **Strength training** — Preserves muscle during fat loss
 - **Adequate protein** — 1.6-2.2 g per kg of body weight
 - **Consistent sleep** — Poor sleep increases cortisol, which promotes fat storage
@@ -78,4 +78,4 @@ For example, an athlete might have a BMI of 28 (overweight) but a body fat perce
 
 ## Summary
 
-Body fat percentage gives you a clearer picture of your health than weight or BMI alone. Use our [body fat calculator](/tools/body-fat-calculator/) to estimate your body fat using the US Navy method, and track changes over time as you improve your fitness.
+Body fat percentage gives you a clearer picture of your health than weight or BMI alone. Use our [body fat calculator]({{< relref "/tools/body-fat-calculator" >}}) to estimate your body fat using the US Navy method, and track changes over time as you improve your fitness.

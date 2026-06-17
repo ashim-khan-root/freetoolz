@@ -55,12 +55,12 @@ YAML is better for configuration files (Docker Compose, Kubernetes, Ansible, CI/
 
 ## Converting Between JSON and YAML
 
-Our [YAML to JSON converter](/tools/yaml-json/) handles bidirectional conversion instantly. It supports nested objects, arrays, strings, numbers, booleans, and null values with pretty-printed output and error detection.
+Our [YAML to JSON converter]({{< relref "/tools/yaml-json" >}}) handles bidirectional conversion instantly. It supports nested objects, arrays, strings, numbers, booleans, and null values with pretty-printed output and error detection.
 
 ## Practical Tips
 
-Use JSON for data exchange (APIs, databases). Use YAML for configuration files humans will edit. Validate JSON with our [JSON formatter](/tools/json-formatter/). Watch YAML indentation — use spaces, not tabs.
+Use JSON for data exchange (APIs, databases). Use YAML for configuration files humans will edit. Validate JSON with our [JSON formatter]({{< relref "/tools/json-formatter" >}}). Watch YAML indentation — use spaces, not tabs.
 
 ## Summary
 
-Neither format is universally better. JSON wins for performance and machine readability. YAML wins for human readability and configuration. Use our free [converter](/tools/yaml-json/) to switch between them instantly.
+Neither format is universally better. JSON wins for performance and machine readability. YAML wins for human readability and configuration. Use our free [converter]({{< relref "/tools/yaml-json" >}}) to switch between them instantly.

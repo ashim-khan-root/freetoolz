@@ -95,6 +95,6 @@ Want a quick estimate of how long it takes to double your money? Divide 72 by yo
 
 ## Use Our Calculator
 
-Try our [free compound interest calculator](/tools/compound-interest-calculator/) to see how your own savings and investments could grow. Adjust the principal, rate, time, and monthly contributions to build your personalized projection.
+Try our [free compound interest calculator]({{< relref "/tools/compound-interest-calculator" >}}) to see how your own savings and investments could grow. Adjust the principal, rate, time, and monthly contributions to build your personalized projection.
 
 Understanding compound interest is the first step toward building real wealth. The key takeaway? Start investing as early as possible, stay consistent, and let time do the heavy lifting.

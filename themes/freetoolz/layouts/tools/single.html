@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="tool-page">
+<article class="tool-page" itemscope itemtype="https://schema.org/WebApplication">
   <div class="container">
     <nav class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
       <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -27,12 +27,21 @@
 
     <div class="tool-body">
       <div class="tool-widget" id="tool-widget">
-        <div class="tool-loading">
+        <div class="tool-loading" id="tool-loading">
           <div class="spinner"></div>
           <p>Loading tool...</p>
         </div>
       </div>
     </div>
+    <script>
+      setTimeout(function(){
+        var w = document.getElementById('tool-widget');
+        var l = document.getElementById('tool-loading');
+        if (w && l && w.querySelector('.tool-loading')) {
+          w.innerHTML = '<div class="tool-error" style="text-align:center;padding:48px;color:var(--text-secondary)"><div style="font-size:2.5rem;margin-bottom:12px">&#x26A0;</div><h3 style="margin-bottom:8px;color:var(--text)">Tool failed to load</h3><p>Please refresh the page or try again later.</p></div>';
+        }
+      }, 8000);
+    </script>
 
     {{ partial "ad-slot.html" . }}
 

@@ -29,7 +29,7 @@ This includes water from all sources — beverages and food. About 20% of your w
 
 ## How to Calculate Your Personal Water Needs
 
-Use our [water intake calculator](/tools/water-intake-calculator/) for a personalized recommendation. The calculation considers your body weight, activity level, and climate.
+Use our [water intake calculator]({{< relref "/tools/water-intake-calculator" >}}) for a personalized recommendation. The calculation considers your body weight, activity level, and climate.
 
 ### General Formula
 
@@ -60,7 +60,7 @@ Yes — though it's rare. Overhydration, or hyponatremia, happens when you drink
 ## FAQ
 
 **Is 8 glasses of water per day enough?**  
-The "8 glasses" rule is a general guideline, not a scientific recommendation. Your actual needs depend on weight, activity level, and climate. Use our [water intake calculator](/tools/water-intake-calculator/) for a personalized target.
+The "8 glasses" rule is a general guideline, not a scientific recommendation. Your actual needs depend on weight, activity level, and climate. Use our [water intake calculator]({{< relref "/tools/water-intake-calculator" >}}) for a personalized target.
 
 **Can you drink too much water?**  
 Yes — overhydration (hyponatremia) dilutes blood sodium levels and can be dangerous. It's rare but most common in endurance athletes. Stick to your calculated intake and drink when thirsty.
@@ -73,4 +73,4 @@ Dark urine, fatigue, headache, dry mouth, and dizziness. If your urine is pale y
 
 ## Summary
 
-Your water needs are personal. Skip the one-size-fits-all advice and use our [water intake calculator](/tools/water-intake-calculator/) to find your optimal daily hydration based on your specific body and lifestyle.
+Your water needs are personal. Skip the one-size-fits-all advice and use our [water intake calculator]({{< relref "/tools/water-intake-calculator" >}}) to find your optimal daily hydration based on your specific body and lifestyle.

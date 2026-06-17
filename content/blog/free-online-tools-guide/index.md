@@ -87,4 +87,4 @@ Our tools offer several advantages over desktop software or paid alternatives:
 - **Fast** — No waiting for page loads or API calls
 - **Always available** — Works on any device with a modern browser
 
-Start using any tool right now from the [tools page](/tools/). If you have suggestions for new tools, feel free to reach out.
+Start using any tool right now from the [tools page]({{< relref "/tools" >}}). If you have suggestions for new tools, feel free to reach out.

@@ -20,7 +20,7 @@ To estimate paint, you need to know the surface area and the paint's coverage ra
 
 ## How Our Paint Calculator Works
 
-Our [paint calculator](/tools/paint-calculator/) handles all the details:
+Our [paint calculator]({{< relref "/tools/paint-calculator" >}}) handles all the details:
 
 - **Walls** — Calculates wall area minus windows and doors
 - **Ceiling** — Separate calculation for ceiling paint
@@ -74,7 +74,7 @@ Our [paint calculator](/tools/paint-calculator/) handles all the details:
 ## FAQ
 
 **How much paint do I need for one wall?**  
-Measure the wall's height and width, multiply for square footage, subtract windows and doors, then divide by 350 (average coverage per gallon). Our [paint calculator](/tools/paint-calculator/) does this instantly.
+Measure the wall's height and width, multiply for square footage, subtract windows and doors, then divide by 350 (average coverage per gallon). Our [paint calculator]({{< relref "/tools/paint-calculator" >}}) does this instantly.
 
 **Is primer included in the paint calculator?**  
 No — primer is calculated separately. Most rooms need one coat of primer followed by two coats of paint. Primer coverage is typically 250-300 sq ft per gallon.
@@ -87,4 +87,4 @@ Yes — buy all your paint at once to ensure color consistency across batches. D
 
 ## Summary
 
-Accurate paint estimation saves money and trips to the hardware store. Use our [paint calculator](/tools/paint-calculator/) to calculate exact gallons for walls, ceilings, and trim with any number of coats.
+Accurate paint estimation saves money and trips to the hardware store. Use our [paint calculator]({{< relref "/tools/paint-calculator" >}}) to calculate exact gallons for walls, ceilings, and trim with any number of coats.

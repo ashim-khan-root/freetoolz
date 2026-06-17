@@ -8,11 +8,10 @@ disableKinds = ['taxonomy', 'term']
 [params]
   description = 'Free online tools for everyday tasks. Image resizer, QR code generator, word counter, password generator, color picker and more. Simple, fast, and 100% free.'
   author = 'FreeToolz'
-  google_analytics = ''
-  adsense_id = ''
+
 
   [params.seo]
-    og_image = '/images/og-default.png'
+    og_image = '/favicon.svg'
     twitter_site = '@freetoolz'
 
 [permalinks]
@@ -22,6 +21,11 @@ disableKinds = ['taxonomy', 'term']
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.8
+  filename = 'sitemap.xml'
 
 [minify]
   disableXML = true

@@ -18,7 +18,7 @@ BMR stands for Basal Metabolic Rate — the number of calories your body burns a
 
 ## What Is the Mifflin-St Jeor Equation?
 
-The most accurate formula for estimating BMR is the Mifflin-St Jeor equation. Our [BMR calculator](/tools/bmr-calculator/) uses this formula:
+The most accurate formula for estimating BMR is the Mifflin-St Jeor equation. Our [BMR calculator]({{< relref "/tools/bmr-calculator" >}}) uses this formula:
 
 **For men:**
 BMR = 10 x weight(kg) + 6.25 x height(cm) - 5 x age(y) + 5
@@ -38,7 +38,7 @@ Your BMR is just the starting point. To find your actual daily calorie needs, mu
 | Very active | Exercise 6-7 days/week | BMR x 1.725 |
 | Extra active | Physical job + daily exercise | BMR x 1.9 |
 
-Our [calorie calculator](/tools/calorie-calculator/) does this automatically and also provides a macro breakdown.
+Our [calorie calculator]({{< relref "/tools/calorie-calculator" >}}) does this automatically and also provides a macro breakdown.
 
 ## Setting Calorie Goals
 
@@ -56,7 +56,7 @@ For balanced nutrition, split your calories into:
 - **Carbohydrates:** 40-50% of calories
 - **Fat:** 20-30% of calories
 
-Our [calorie calculator](/tools/calorie-calculator/) provides a full macro split based on your goals.
+Our [calorie calculator]({{< relref "/tools/calorie-calculator" >}}) provides a full macro split based on your goals.
 
 ## Common Mistakes
 
@@ -66,4 +66,4 @@ Our [calorie calculator](/tools/calorie-calculator/) provides a full macro split
 
 ## Summary
 
-Your BMR is the foundation of weight management. Use our [BMR calculator](/tools/bmr-calculator/) to find your baseline, then use the [calorie calculator](/tools/calorie-calculator/) to set daily targets with a complete macro breakdown.
+Your BMR is the foundation of weight management. Use our [BMR calculator]({{< relref "/tools/bmr-calculator" >}}) to find your baseline, then use the [calorie calculator]({{< relref "/tools/calorie-calculator" >}}) to set daily targets with a complete macro breakdown.

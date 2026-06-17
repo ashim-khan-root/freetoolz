@@ -23,7 +23,7 @@ Concrete is typically sold by the cubic yard (in the US) or cubic meter (elsewhe
 
 ## How to Calculate Concrete Volume
 
-The basic formula is simple: **length × width × height (or depth)**. Our [concrete calculator](/tools/concrete-calculator/) handles the math instantly, but here's how it works:
+The basic formula is simple: **length × width × height (or depth)**. Our [concrete calculator]({{< relref "/tools/concrete-calculator" >}}) handles the math instantly, but here's how it works:
 
 ### For a Slab
 
@@ -58,7 +58,7 @@ If you're mixing your own concrete with bagged mix, here's what you need:
 | 60 lb (27 kg) | 0.45 | 60 |
 | 80 lb (36 kg) | 0.60 | 45 |
 
-Our [concrete calculator](/tools/concrete-calculator/) automatically converts between cubic yards, cubic feet, and bags so you know exactly what to buy.
+Our [concrete calculator]({{< relref "/tools/concrete-calculator" >}}) automatically converts between cubic yards, cubic feet, and bags so you know exactly what to buy.
 
 ## Common Concrete Thicknesses
 
@@ -74,11 +74,11 @@ Our [concrete calculator](/tools/concrete-calculator/) automatically converts be
 ## Tips for Ordering Concrete
 
 1. **Always order 10% extra** — to account for spillage, uneven subgrade, and slight depth variations
-2. **Consider reinforcing** — Use our [rebar calculator](/tools/rebar-calculator/) to plan reinforcement
+2. **Consider reinforcing** — Use our [rebar calculator]({{< relref "/tools/rebar-calculator" >}}) to plan reinforcement
 3. **Check weather** — Don't pour concrete in rain or extreme heat
 4. **Have helpers ready** — Concrete sets in 30-60 minutes; you need to work fast
 5. **Order at the right time** — Ready-mix trucks charge for waiting time
 
 ## Summary
 
-Getting your concrete estimate right saves money, time, and headaches. Use our free [concrete calculator](/tools/concrete-calculator/) to get accurate yardage, bag counts, and cost estimates for any project.
+Getting your concrete estimate right saves money, time, and headaches. Use our free [concrete calculator]({{< relref "/tools/concrete-calculator" >}}) to get accurate yardage, bag counts, and cost estimates for any project.

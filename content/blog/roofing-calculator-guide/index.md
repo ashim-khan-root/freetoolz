@@ -20,7 +20,7 @@ Roofing materials are measured in "squares." One square equals 100 square feet o
 
 Roof pitch is the angle of your roof, expressed as rise over run (e.g., 6/12 means the roof rises 6 inches for every 12 inches of horizontal run).
 
-Steeper roofs have more surface area than flat ones. Our [roofing calculator](/tools/roofing-calculator/) accounts for this automatically. The formula is:
+Steeper roofs have more surface area than flat ones. Our [roofing calculator]({{< relref "/tools/roofing-calculator" >}}) accounts for this automatically. The formula is:
 
 `Roof Area = Building Area x Pitch Factor`
 
@@ -65,4 +65,4 @@ Consider DIY for small sheds or simple roof repairs. Hire a pro for steep roofs,
 
 ## Summary
 
-Getting accurate roofing estimates prevents waste and delays. Use our [roofing calculator](/tools/roofing-calculator/) to calculate squares, bundles, underlayment, and ridge cap for any roof pitch.
+Getting accurate roofing estimates prevents waste and delays. Use our [roofing calculator]({{< relref "/tools/roofing-calculator" >}}) to calculate squares, bundles, underlayment, and ridge cap for any roof pitch.
