@@ -736,10 +736,7 @@ main { flex: 1; }
     padding-left: 24px;
   }
 
-  .theme-toggle {
-    align-self: flex-start;
-    margin: 4px 16px;
-  }
+
   .nav-item {
     width: 100%;
   }
