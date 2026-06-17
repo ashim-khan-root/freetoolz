@@ -6,9 +6,9 @@
 <section class="tools-listing">
   <div class="container">
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "" | relURL }}">Home</a>
       <span class="sep">/</span>
-      <a href="{{ "/tools/" | relURL }}">Tools</a>
+      <a href="{{ "tools/" | relURL }}">Tools</a>
       <span class="sep">/</span>
       <span>{{ .Title }}</span>
     </nav>
@@ -46,7 +46,7 @@
       <h2 style="font-family:var(--font-display);font-size:1.1rem;margin-bottom:16px">Browse All Categories</h2>
       <div style="display:flex;flex-wrap:wrap;gap:10px">
         {{ range sort hugo.Data.categories "order" }}
-        <a href="/{{ .page_slug }}/" class="cat-nav-item">
+        <a href="{{ printf "%s/" .page_slug | relURL }}" class="cat-nav-item">
           <span class="cat-nav-icon">{{ .icon | safeHTML }}</span>
           <span class="cat-nav-name">{{ .name }}</span>
         </a>
