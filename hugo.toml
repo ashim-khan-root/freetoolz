@@ -25,4 +25,5 @@ disableKinds = ['taxonomy', 'term']
 
 [minify]
   disableXML = true
+  disableHTML = true
   minifyOutput = true
