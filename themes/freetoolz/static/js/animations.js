@@ -144,14 +144,38 @@
     }
   }
 
+  /* Dark mode */
+  function initTheme() {
+    var btn = document.getElementById('theme-toggle');
+    var saved = localStorage.getItem('theme');
+    var html = document.documentElement;
+
+    if (saved) {
+      html.setAttribute('data-theme', saved);
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      html.setAttribute('data-theme', 'dark');
+    }
+
+    if (btn) {
+      btn.addEventListener('click', function () {
+        var current = html.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      });
+    }
+  }
+
   /* Init */
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () {
+      initTheme();
       initReveal();
       initStagger();
       initSearch();
     });
   } else {
+    initTheme();
     initReveal();
     initStagger();
     initSearch();
