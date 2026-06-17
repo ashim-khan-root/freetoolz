@@ -24,7 +24,7 @@
     '</div>' +
     '<div class="ups-results-grid">' +
     '<div class="ups-rc"><span class="ups-rl">Total Load</span><span class="ups-rv" id="ups-load">0 W</span></div>' +
-    '<div class="ups-rc" style="background:var(--primary);color:#fff"><span class="ups-rl" style="color:rgba(255,255,255,.7)">Recommended UPS</span><span class="ups-rv" id="ups-rec">—</span></div>' +
+    '<div class="ups-rc" style="background:var(--primary);color:#fff"><span class="ups-rl" style="color:rgba(255,255,255,.7)">Recommended UPS</span><span class="ups-rv" id="ups-rec" style="color:#fff">—</span></div>' +
     '<div class="ups-rc"><span class="ups-rl">Min. UPS Rating</span><span class="ups-rv" id="ups-min">0 VA</span></div>' +
     '</div>' +
     '<div class="ups-table-wrap"><table class="ups-table"><thead><tr><th>UPS Size</th><th>Est. Runtime</th><th>Suitability</th></tr></thead><tbody id="ups-runtimes"></tbody></table></div>' +

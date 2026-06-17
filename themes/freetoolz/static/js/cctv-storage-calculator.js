@@ -26,7 +26,7 @@
     '<div class="cctv-results-grid">' +
     '<div class="cctv-result-card"><span class="cctv-rl">Per Camera Bitrate</span><span class="cctv-rv" id="cs-bitrate">0 Mbps</span></div>' +
     '<div class="cctv-result-card"><span class="cctv-rl">Daily Storage</span><span class="cctv-rv" id="cs-daily">0 GB</span></div>' +
-    '<div class="cctv-result-card" style="background:var(--primary);color:#fff"><span class="cctv-rl" style="color:rgba(255,255,255,.7)">Total Storage Required</span><span class="cctv-rv" id="cs-total">0 GB</span></div>' +
+    '<div class="cctv-result-card" style="background:var(--primary);color:#fff"><span class="cctv-rl" style="color:rgba(255,255,255,.7)">Total Storage Required</span><span class="cctv-rv" id="cs-total" style="color:#fff">0 GB</span></div>' +
     '<div class="cctv-result-card"><span class="cctv-rl">Recommended HDD</span><span class="cctv-rv" id="cs-hdd">0 TB</span></div>' +
     '</div>' +
     '<div class="cctv-breakdown" id="cs-breakdown"></div></div>';

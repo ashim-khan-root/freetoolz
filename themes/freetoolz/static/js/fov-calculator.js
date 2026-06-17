@@ -27,7 +27,7 @@
     '<div class="fov-results-grid">' +
     '<div class="fov-rc"><span class="fov-rl">Horizontal FOV</span><span class="fov-rv" id="fov-h">0&deg;</span></div>' +
     '<div class="fov-rc"><span class="fov-rl">Vertical FOV</span><span class="fov-rv" id="fov-v">0&deg;</span></div>' +
-    '<div class="fov-rc" style="background:var(--primary);color:#fff"><span class="fov-rl" style="color:rgba(255,255,255,.7)">Coverage at Distance</span><span class="fov-rv" id="fov-coverage">0 &times; 0 m</span></div>' +
+    '<div class="fov-rc" style="background:var(--primary);color:#fff"><span class="fov-rl" style="color:rgba(255,255,255,.7)">Coverage at Distance</span><span class="fov-rv" id="fov-coverage" style="color:#fff">0 &times; 0 m</span></div>' +
     '<div class="fov-rc"><span class="fov-rl">Lens Type</span><span class="fov-rv" id="fov-lens-type" style="font-size:1rem">Standard</span></div>' +
     '</div>' +
     '<div class="fov-note" id="fov-note">Adjust sensor size and focal length to see field of view.</div>' +

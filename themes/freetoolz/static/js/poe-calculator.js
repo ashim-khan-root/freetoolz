@@ -20,7 +20,7 @@
     '<div class="poe-devices" id="poe-devices"></div>' +
     '<div class="poe-results-grid">' +
     '<div class="poe-rc"><span class="poe-rl">Total Power Draw</span><span class="poe-rv" id="poe-total">0 W</span></div>' +
-    '<div class="poe-rc" style="background:var(--primary);color:#fff"><span class="poe-rl" style="color:rgba(255,255,255,.7)">Remaining Budget</span><span class="poe-rv" id="poe-remaining">0 W</span></div>' +
+    '<div class="poe-rc" style="background:var(--primary);color:#fff"><span class="poe-rl" style="color:rgba(255,255,255,.7)">Remaining Budget</span><span class="poe-rv" id="poe-remaining" style="color:#fff">0 W</span></div>' +
     '<div class="poe-rc"><span class="poe-rl">Utilization</span><span class="poe-rv" id="poe-util">0%</span></div>' +
     '<div class="poe-rc"><span class="poe-rl">Cable Loss Est.</span><span class="poe-rv" id="poe-loss">0 W</span></div>' +
     '</div>' +

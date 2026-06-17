@@ -22,7 +22,7 @@
     '</div>' +
     '<div class="bw-results-grid">' +
     '<div class="bw-result-card"><span class="bw-rl">Per Camera</span><span class="bw-rv" id="bw-percam">0 Mbps</span></div>' +
-    '<div class="bw-result-card" style="background:var(--primary);color:#fff"><span class="bw-rl" style="color:rgba(255,255,255,.7)">Total Bandwidth</span><span class="bw-rv" id="bw-total">0 Mbps</span></div>' +
+    '<div class="bw-result-card" style="background:var(--primary);color:#fff"><span class="bw-rl" style="color:rgba(255,255,255,.7)">Total Bandwidth</span><span class="bw-rv" id="bw-total" style="color:#fff">0 Mbps</span></div>' +
     '<div class="bw-result-card"><span class="bw-rl">Per Month (30d)</span><span class="bw-rv" id="bw-monthly">0 TB</span></div>' +
     '<div class="bw-result-card"><span class="bw-rl">Network Required</span><span class="bw-rv" id="bw-network">100 Mbps</span></div>' +
     '</div>' +

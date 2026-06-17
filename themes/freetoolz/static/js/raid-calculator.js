@@ -27,7 +27,7 @@
     '<span class="raid-result-value" id="raid-raw">0 TB</span></div>' +
     '<div class="raid-result-card" style="background:var(--primary);color:#fff">' +
     '<span class="raid-result-label" style="color:rgba(255,255,255,.7)">Usable Capacity</span>' +
-    '<span class="raid-result-value" id="raid-usable">0 TB</span></div>' +
+    '<span class="raid-result-value" id="raid-usable" style="color:#fff">0 TB</span></div>' +
     '<div class="raid-result-card">' +
     '<span class="raid-result-label">Storage Efficiency</span>' +
     '<span class="raid-result-value" id="raid-efficiency">0%</span></div>' +
