@@ -199,6 +199,33 @@
     }
   }
 
+  var HTML =
+    '<div class="ts-widget">' +
+    '<div class="ts-section">' +
+    '<label>Unix Timestamp (seconds)</label>' +
+    '<div class="ts-row">' +
+    '<input type="number" id="ts-timestamp" placeholder="e.g. 1718640000" value="' + Math.floor(Date.now() / 1000) + '">' +
+    '<button class="btn" onclick="tsFromTimestamp()">Convert</button>' +
+    '<button class="btn-secondary" onclick="tsNow()">Now</button>' +
+    '</div>' +
+    '<div class="ts-result">' +
+    '<div class="ts-result-row"><span class="ts-label">UTC:</span><span id="ts-utc"></span><button class="ts-copy-btn" onclick="tsCopy(\'ts-utc\')">Copy</button></div>' +
+    '<div class="ts-result-row"><span class="ts-label">Local:</span><span id="ts-local"></span><button class="ts-copy-btn" onclick="tsCopy(\'ts-local\')">Copy</button></div>' +
+    '</div></div>' +
+    '<div class="ts-divider"></div>' +
+    '<div class="ts-section">' +
+    '<label>Date &amp; Time</label>' +
+    '<div class="ts-row">' +
+    '<input type="datetime-local" id="ts-date">' +
+    '<button class="btn" onclick="tsFromDate()">Get Timestamp</button>' +
+    '</div>' +
+    '<div class="ts-result">' +
+    '<div class="ts-result-row"><span class="ts-label">Unix:</span><span id="ts-unix-value"></span><button class="ts-copy-btn" onclick="tsCopy(\'ts-unix-value\')">Copy</button></div>' +
+    '</div></div></div>';
+
+  var c = document.getElementById("tool-widget");
+  if (c) { c.innerHTML = HTML; c.querySelector(".tool-loading") && c.querySelector(".tool-loading").remove(); }
+
   addStyles();
   window.tsFromTimestamp = tsFromTimestamp;
   window.tsNow = tsNow;
