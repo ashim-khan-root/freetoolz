@@ -694,6 +694,7 @@ main { flex: 1; }
 
 
 /* Mobile categories list (hidden on desktop) */
+.mobile-home { display: none; }
 .mobile-cat-list {
   display: none;
 }
@@ -709,6 +710,8 @@ main { flex: 1; }
 /* Responsive nav */
 @media (max-width: 900px) {
   .site-header .container { flex-wrap: wrap; }
+  .mobile-home { display: block; }
+  .theme-toggle { margin-left: auto; margin-right: 8px; }
   .hamburger { display: flex; }
   .main-nav {
     display: none;
