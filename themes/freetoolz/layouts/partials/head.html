@@ -42,7 +42,7 @@
   "@type": "BlogPosting",
   "headline": "{{ .Title }}",
   "description": "{{ .Description }}",
-  {{ with .Params.image }}"image": {{ . | absURL | jsonify }},{{ end }}
+  {{ with .Params.image }}"image": "{{ . | absURL }}",{{ end }}
   "author": { "@type": "Organization", "name": "FreeToolz", "url": "{{ .Site.BaseURL }}" },
   "publisher": { "@type": "Organization", "name": "FreeToolz", "logo": { "@type": "ImageObject", "url": "{{ "favicon.svg" | absURL }}" } },
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
