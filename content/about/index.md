@@ -38,4 +38,4 @@ We noticed that most "free" tools online are cluttered with ads, require signups
 
 FreeToolz was created by **Ashim Ahmad** — a full-stack developer and AI engineer based in Qatar.
 
-Have suggestions or feedback? We'd love to hear from you at **contact@freetoolz.in**.
+Have suggestions or feedback? We'd love to hear from you at **aashimkhn@protonmail.com**.

@@ -71,6 +71,6 @@ We may update this Privacy Policy from time to time. Changes will be posted on t
 
 If you have questions about this Privacy Policy, please contact us at:
 
-**Email:** contact@freetoolz.in
+**Email:** aashimkhn@protonmail.com
 
 *Last updated: June 19, 2026*
