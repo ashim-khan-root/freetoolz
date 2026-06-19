@@ -1,7 +1,7 @@
 {{ define "main" }}
-{{ $toolCat := hugo.Data.tool_categories }}
+{{ $toolCat := site.Data.tool_categories }}
 {{ $currentPath := .File.Dir | strings.TrimSuffix "/" }}
-{{ $cat := where hugo.Data.categories "page_slug" $currentPath | first 1 }}
+{{ $cat := where site.Data.categories "page_slug" $currentPath | first 1 }}
 
 <section class="tools-listing">
   <div class="container">
@@ -54,7 +54,7 @@
     <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--border)">
       <h2 style="font-family:var(--font-display);font-size:1.1rem;margin-bottom:16px">Browse All Categories</h2>
       <div style="display:flex;flex-wrap:wrap;gap:10px">
-        {{ range sort hugo.Data.categories "order" }}
+        {{ range sort site.Data.categories "order" }}
         <a href="{{ printf "%s/" .page_slug | relURL }}" class="cat-nav-item">
           <span class="cat-nav-icon">{{ .icon | safeHTML }}</span>
           <span class="cat-nav-name">{{ .name }}</span>
