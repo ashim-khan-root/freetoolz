@@ -34,7 +34,7 @@
       </div>
       <div class="mobile-cat-list">
         <div class="mobile-cat-label">Categories</div>
-        {{ range sort hugo.Data.categories "order" }}
+        {{ range sort site.Data.categories "order" }}
         <a href="{{ printf "%s/" .page_slug | relURL }}" class="nav-link" aria-label="{{ .name }}">
           {{ .icon | safeHTML }} {{ .name }}
         </a>
