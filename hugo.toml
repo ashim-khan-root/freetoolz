@@ -11,7 +11,7 @@ disableKinds = ['taxonomy', 'term']
   adsense_id = 'ca-pub-4136483487432936'
 
   [params.seo]
-    og_image = '/favicon.svg'
+    og_image = '/images/og-home.jpg'
     twitter_site = '@freetoolz'
 
 [permalinks]
