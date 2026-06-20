@@ -51,7 +51,10 @@
     for (var i = 0; i < sizes.length; i++) {
       if (sizes[i] >= gb * 1.1) return sizes[i] / 1000;
     }
-    return sizes[sizes.length - 1] / 1000;
+    var needed = gb * 1.1 / 1000;
+    var maxDrive = sizes[sizes.length - 1] / 1000;
+    var drives = Math.ceil(needed / maxDrive);
+    return drives + 'x ' + maxDrive + 'TB';
   }
 
   function clampFps(fps) {
@@ -80,7 +83,7 @@
     w('cs-bitrate').textContent = bitrate.toFixed(1) + ' Mbps';
     w('cs-daily').textContent = dailyGb >= 1024 ? (dailyGb / 1024).toFixed(1) + ' TB' : dailyGb.toFixed(1) + ' GB';
     w('cs-total').textContent = totalGb >= 1024 ? (totalGb / 1024).toFixed(1) + ' TB' : totalGb.toFixed(0) + ' GB';
-    w('cs-hdd').textContent = hddTb >= 1 ? hddTb + ' TB' : (hddTb * 1000) + ' GB';
+    w('cs-hdd').textContent = typeof hddTb === 'string' ? hddTb : (hddTb >= 1 ? hddTb + ' TB' : (hddTb * 1000) + ' GB');
 
     var bd = document.getElementById('cs-breakdown');
     if (cams > 0 && bitrate > 0) {
