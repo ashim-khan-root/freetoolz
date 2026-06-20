@@ -9,7 +9,7 @@ Pick the next unwritten blog when user says "create blog". After writing, mark `
 | 1 | The Power of Compound Interest: How Your Money Grows Over Time | compound-interest-calculator | [x] |
 | 2 | Meta Tags for SEO: A Complete Guide to Writing Better Meta Tags | meta-tag-generator | [x] |
 | 3 | EMI Calculator: Understanding Loan Payments and Amortization | emi-calculator | [x] |
-| 4 | ROI Calculator: How to Measure Investment Returns the Right Way | roi-calculator | [ ] |
+| 4 | ROI Calculator: How to Measure Investment Returns the Right Way | roi-calculator | [x] |
 | 5 | Discount Calculator: Never Overpay Again — Smart Shopping Guide | discount-calculator | [ ] |
 | 6 | Tip Calculator: Splitting Bills Fairly at Restaurants | tip-calculator | [ ] |
 | 7 | Unit Conversion Guide: How to Convert Length, Mass & Temperature | length-converter | [ ] |
