@@ -14,7 +14,7 @@ Pick the next unwritten blog when user says "create blog". After writing, mark `
 | 6 | Tip Calculator: Splitting Bills Fairly at Restaurants | tip-calculator | [x] |
 | 7 | Unit Conversion Guide: How to Convert Length, Mass & Temperature | length-converter | [x] |
 | 8 | Data Storage Explained: From Bytes to Terabytes | data-storage-converter | [x] |
-| 9 | Speed Conversion: KMH to MPH and Everything in Between | speed-converter | [ ] |
+| 9 | Speed Conversion: KMH to MPH and Everything in Between | speed-converter | [x] |
 | 10 | Temperature Conversion: Celsius, Fahrenheit & Kelvin Guide | temperature-converter | [ ] |
 | 11 | Kitchen Conversions: Volume & Mass for Cooking | volume-converter | [ ] |
 | 12 | Land Area Guide: Square Meters, Acres & Hectares Explained | area-converter | [ ] |
