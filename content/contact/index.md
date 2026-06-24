@@ -7,7 +7,7 @@ description: "Get in touch with FreeToolz. Have a suggestion, feedback, or found
 
 Have a suggestion for a new tool? Found a bug? Want to collaborate? We'd love to hear from you.
 
-**Email:** aashimkhn@protonmail.com
+**Email:** aashimkhn<!-- -->&#64;<!-- -->protonmail&#46;com
 
 **Response time:** We typically respond within 24–48 hours.
 

@@ -9,7 +9,7 @@
     <div class="hero-search">
       <div class="search-wrapper">
         <span class="search-icon">&#x1F50D;</span>
-        <input type="text" id="tool-search" class="search-input" placeholder="Search all 73 tools..." autocomplete="off">
+        <input type="text" id="tool-search" class="search-input" placeholder="Search all {{ len (where site.Pages "Params.tool_slug" "!=" nil) }} tools..." autocomplete="off">
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@
         {{ if eq (index $toolCat .Params.tool_slug) $slug }}
         <a href="{{ .RelPermalink }}" class="tool-card">
           <div class="tool-card-icon">{{ with .Params.icon }}{{ . | safeHTML }}{{ else }}&#x1F9F0;{{ end }}</div>
-          <h2>{{ index (split .Title " - ") 0 }}</h2>
+          <h3>{{ index (split .Title " - ") 0 }}</h3>
           <p>{{ .Description }}</p>
         </a>
         {{ end }}

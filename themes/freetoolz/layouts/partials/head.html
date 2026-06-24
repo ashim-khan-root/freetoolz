@@ -1,7 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='32' height='32' rx='8' fill='url(%23logo-gradient)' /%3E%3Cpath d='M9 16L14 21L23 12' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cdefs%3E%3ClinearGradient id='logo-gradient' x1='0' y1='0' x2='32' y2='32' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%236366f1'/%3E%3Cstop offset='1' stop-color='%23a78bfa'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ "images/favicon-192.png" | relURL }}">
+<link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | FreeToolz{{ end }}</title>
 <script>(function(){var t=localStorage.getItem('theme');if(t){document.documentElement.setAttribute('data-theme',t)}else if(window.matchMedia('(prefers-color-scheme:dark)').matches){document.documentElement.setAttribute('data-theme','dark')}})();</script>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
@@ -14,6 +16,7 @@
 <meta name="twitter:image" content="{{ "og-image.png" | absURL }}">
 <meta name="twitter:card" content="summary_large_image">
 
+<script src="{{ "js/cookie-consent.js" | relURL }}" defer></script>
 <meta name="google-adsense-account" content="ca-pub-4136483487432936">
 
 {{ if .IsHome }}
@@ -37,7 +40,7 @@
   "@type": "Organization",
   "name": "FreeToolz",
   "url": "{{ .Site.BaseURL }}",
-  "logo": "{{ "favicon.svg" | absURL }}",
+  "logo": "{{ "images/logo.png" | absURL }}",
   "description": "{{ .Site.Params.description }}"
 }
 </script>
@@ -52,7 +55,7 @@
   "description": "{{ .Description }}",
   {{ with .Params.image }}"image": "{{ . | absURL }}",{{ end }}
   "author": { "@type": "Organization", "name": "FreeToolz", "url": "{{ .Site.BaseURL }}" },
-  "publisher": { "@type": "Organization", "name": "FreeToolz", "logo": { "@type": "ImageObject", "url": "{{ "favicon.svg" | absURL }}" } },
+  "publisher": { "@type": "Organization", "name": "FreeToolz", "logo": { "@type": "ImageObject", "url": "{{ "images/logo.png" | absURL }}" } },
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   "dateModified": "{{ with .Lastmod }}{{ .Format "2006-01-02" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ .Permalink }}" },

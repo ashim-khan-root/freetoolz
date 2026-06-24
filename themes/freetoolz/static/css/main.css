@@ -1049,3 +1049,66 @@ main { flex: 1; }
   }
   html { scroll-behavior: auto; }
 }
+
+/* Cookie consent banner */
+#cc-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: var(--bg-card-solid);
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+  padding: 16px 24px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+#cc-banner .cc-inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#cc-banner .cc-text { flex: 1; min-width: 240px; }
+#cc-banner .cc-text p { font-size: 0.88rem; color: var(--text-secondary); margin: 0; line-height: 1.5; }
+#cc-banner .cc-text a { color: var(--primary); text-decoration: underline; }
+#cc-banner .cc-actions { display: flex; gap: 10px; flex-shrink: 0; }
+#cc-banner .cc-btn {
+  padding: 10px 24px;
+  border-radius: 60px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: var(--transition);
+  transition-property: background, transform, box-shadow;
+}
+#cc-banner .cc-accept {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(99,102,241,0.3);
+}
+#cc-banner .cc-accept:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(99,102,241,0.4);
+}
+#cc-banner .cc-reject {
+  background: transparent;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+#cc-banner .cc-reject:hover {
+  background: var(--bg);
+  color: var(--text);
+}
+@media (max-width: 600px) {
+  #cc-banner { padding: 14px 16px; }
+  #cc-banner .cc-inner { flex-direction: column; text-align: center; }
+  #cc-banner .cc-actions { width: 100%; }
+  #cc-banner .cc-btn { flex: 1; text-align: center; }
+}
