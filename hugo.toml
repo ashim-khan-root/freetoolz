@@ -6,7 +6,7 @@ enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
 
 [params]
-  description = 'Free online tools for everyday tasks. Image resizer, QR code generator, word counter, password generator, color picker and more. Simple, fast, and 100% free.'
+  description = 'Free online calculators and utilities for CCTV security, construction, health, finance, development, and SEO. All tools run client-side. No signup, no limits, 100% free.'
   author = 'FreeToolz'
   adsense_id = 'ca-pub-4136483487432936'
 
