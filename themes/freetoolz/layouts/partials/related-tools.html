@@ -1,18 +1,21 @@
-{{ $currentCat := index site.Data.tool_categories .Params.tool_slug }}
 {{ $tools := where site.Pages "Params.tool_slug" "!=" nil }}
-{{ $sameCat := where $tools "Params.tool_slug" "in" (slice) }}
 {{ $related := slice }}
-{{ range $tools }}
-  {{ if and (ne .Permalink $.Permalink) (eq (index site.Data.tool_categories .Params.tool_slug) $currentCat) }}
-    {{ $related = $related | append . }}
-  {{ end }}
-{{ end }}
-{{ if lt (len $related) 6 }}
+{{ with .Params.tool_slug }}
+  {{ $currentCat := index site.Data.tool_categories . }}
   {{ range $tools }}
-    {{ if and (ne .Permalink $.Permalink) (ne (index site.Data.tool_categories .Params.tool_slug) $currentCat) (lt (len $related) 6) }}
+    {{ if and (ne .Permalink $.Permalink) (eq (index site.Data.tool_categories .Params.tool_slug) $currentCat) }}
       {{ $related = $related | append . }}
     {{ end }}
   {{ end }}
+  {{ if lt (len $related) 6 }}
+    {{ range $tools }}
+      {{ if and (ne .Permalink $.Permalink) (ne (index site.Data.tool_categories .Params.tool_slug) $currentCat) (lt (len $related) 6) }}
+        {{ $related = $related | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ $related = $tools | first 6 }}
 {{ end }}
 {{ if gt (len $related) 0 }}
 <section class="related-tools">
