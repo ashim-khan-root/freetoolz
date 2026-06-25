@@ -28,6 +28,6 @@ disableKinds = ['taxonomy', 'term']
   filename = 'sitemap.xml'
 
 [minify]
-  disableXML = false
-  disableHTML = false
+  disableXML = true
+  disableHTML = true
   minifyOutput = true
