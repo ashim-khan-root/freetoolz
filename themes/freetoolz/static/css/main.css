@@ -797,6 +797,10 @@ main { flex: 1; }
   color: #64748b;
 }
 
+.footer-badges {
+  margin: 12px 0;
+}
+
 /* Error Page */
 .error-page {
   text-align: center;
