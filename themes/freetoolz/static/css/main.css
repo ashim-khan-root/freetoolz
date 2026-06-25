@@ -790,15 +790,39 @@ main { flex: 1; }
 .footer-col a:hover { color: #f1f5f9; }
 
 .footer-bottom {
-  padding: 24px 0;
+  padding: 20px 0;
   border-top: 1px solid rgba(148,163,184,0.15);
-  text-align: center;
   font-size: 0.82rem;
   color: #64748b;
 }
 
+.footer-bottom-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-made { margin: 0; }
+
 .footer-badges {
-  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-links a { color: #64748b; text-decoration: none; }
+.footer-links a:hover { color: #f1f5f9; }
+
+.footer-copy {
+  text-align: center;
+  margin: 16px 0 0 0;
+  width: 100%;
 }
 
 /* Error Page */
