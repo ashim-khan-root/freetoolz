@@ -106,7 +106,7 @@
       note.style.borderLeftColor = 'var(--primary)';
     } else {
       note.innerHTML = 'Total load: <strong>' + totalLoad.toFixed(0) + ' W</strong>. ' +
-        'Recommended UPS: <strong>' + recommended + '</strong> or larger (at least ' + minVA + ' VA to maintain 30% headroom).';
+        'Recommended UPS: <strong>' + recommended + '</strong> or larger (at least ' + minVA + ' VA to maintain 30% headroom). Runtime is a rough estimate — actual runtime depends on battery capacity (Ah), age, and temperature.';
       note.style.borderLeftColor = '#22c55e';
     }
   }

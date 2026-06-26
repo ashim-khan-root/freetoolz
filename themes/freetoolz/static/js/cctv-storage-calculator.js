@@ -29,7 +29,8 @@
     '<div class="cctv-result-card" style="background:var(--primary);color:#fff"><span class="cctv-rl" style="color:rgba(255,255,255,.7)">Total Storage Required</span><span class="cctv-rv" id="cs-total" style="color:#fff">0 GB</span></div>' +
     '<div class="cctv-result-card"><span class="cctv-rl">Recommended HDD</span><span class="cctv-rv" id="cs-hdd">0 TB</span></div>' +
     '</div>' +
-    '<div class="cctv-breakdown" id="cs-breakdown"></div></div>';
+    '<div class="cctv-breakdown" id="cs-breakdown"></div>' +
+    '<div class="cctv-note" id="cs-note">Bitrate estimates are based on H.264 mid-quality. Actual bitrate varies by scene complexity, camera quality, and compression settings. H.265 can reduce bitrate ~40% vs H.264.</div></div>';
 
   var CSS =
     '.cctv-widget{display:flex;flex-direction:column;gap:20px}' +
@@ -43,6 +44,7 @@
     '.cctv-rl{display:block;font-size:.72rem;font-weight:600;color:var(--text-tertiary);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}' +
     '.cctv-rv{font-size:1.3rem;font-weight:800;color:var(--primary);display:block}' +
     '.cctv-breakdown{font-size:.82rem;color:var(--text-secondary);padding:10px 0;line-height:1.6}' +
+    '.cctv-note{font-size:.82rem;color:var(--text-secondary);padding:12px 16px;border-radius:var(--radius-sm);border-left:3px solid var(--primary);line-height:1.5;margin-top:4px}' +
     '@media(max-width:768px){.cctv-form-grid{grid-template-columns:1fr 1fr}.cctv-results-grid{grid-template-columns:1fr 1fr}}' +
     '@media(max-width:480px){.cctv-form-grid{grid-template-columns:1fr}}';
 

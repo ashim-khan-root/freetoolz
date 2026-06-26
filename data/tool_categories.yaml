@@ -17,6 +17,8 @@ hash-generator: dev-tools
 timestamp-converter: dev-tools
 color-picker: dev-tools
 password-generator: dev-tools
+http-status-lookup: dev-tools
+ssl-checker: dev-tools
 
 # Health Calculators
 bmi-calculator: health
@@ -25,6 +27,9 @@ body-fat-calculator: health
 calorie-calculator: health
 due-date-calculator: health
 water-intake-calculator: health
+macro-calculator: health
+bmi-prime-calculator: health
+sleep-cycle-calculator: health
 
 # Construction Calculators
 concrete-calculator: construction
@@ -48,12 +53,16 @@ bandwidth-calculator: cctv
 poe-calculator: cctv
 ups-calculator: cctv
 fov-calculator: cctv
+anpr-range-calculator: cctv
+minimum-illumination-calculator: cctv
+video-bitrate-calculator: cctv
 
 # Network Tools
 subnet-calculator: network
 mac-lookup: network
 bandwidth-converter: network
 port-lookup: network
+ip-range-calculator: network
 
 # Time & Date Tools
 age-calculator: time-date
@@ -66,6 +75,9 @@ uuid-generator: dev-utils
 lorem-ipsum: dev-utils
 list-randomizer: dev-utils
 password-strength: dev-utils
+cron-generator: dev-utils
+regex-tester: dev-utils
+html-entity-encoder: dev-utils
 
 # Math & Geometry
 percentage-calc: math
@@ -79,6 +91,9 @@ compound-interest-calculator: finance
 roi-calculator: finance
 discount-calculator: finance
 tip-calculator: finance
+loan-calculator: finance
+fuel-cost-calculator: finance
+electricity-bill-calculator: finance
 
 # Unit Converters
 length-converter: unit-converters
@@ -96,3 +111,7 @@ robots-txt-generator: seo
 sitemap-generator: seo
 heading-analyzer: seo
 html-sitemap-generator: seo
+serp-preview: seo
+readability-score: seo
+og-preview: seo
+cache-checker: seo

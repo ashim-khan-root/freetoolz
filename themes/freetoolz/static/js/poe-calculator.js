@@ -125,7 +125,7 @@
       note.innerHTML = '&#9888; Only ' + remaining.toFixed(1) + ' W remaining (' + util.toFixed(0) + '% utilized). Consider a larger switch for headroom.';
       note.style.borderLeftColor = '#eab308';
     } else {
-      note.innerHTML = 'Power budget is healthy. ' + remaining.toFixed(1) + ' W remaining (' + (100 - util).toFixed(0) + '% headroom).';
+      note.innerHTML = 'Power budget is healthy. ' + remaining.toFixed(1) + ' W remaining (' + (100 - util).toFixed(0) + '% headroom). Cable loss is a linear estimate; actual loss depends on cable gauge (Cat5e vs Cat6) and quality.';
       note.style.borderLeftColor = '#22c55e';
     }
   }

@@ -1140,3 +1140,13 @@ main { flex: 1; }
   #cc-banner .cc-actions { width: 100%; }
   #cc-banner .cc-btn { flex: 1; text-align: center; }
 }
+
+/* External link indicator */
+a[target="_blank"]::after {
+  content: " ↗";
+  font-size: 0.75em;
+  opacity: 0.6;
+}
+a[target="_blank"]:hover::after {
+  opacity: 1;
+}
