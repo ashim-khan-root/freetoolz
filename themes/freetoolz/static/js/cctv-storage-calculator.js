@@ -78,7 +78,7 @@
     var fpsKey = clampFps(fps).toString();
     var bitrate = (BITRATES[res] && BITRATES[res][codec] && BITRATES[res][codec][fpsKey]) || 0;
 
-    var dailyGb = bitrate * cams * hours * 3600 / 8 / 1024;
+    var dailyGb = bitrate * cams * hours * 3600 / 8 / 1024 / 1024;
     var totalGb = dailyGb * days;
     var hddTb = nearestHDD(totalGb);
 
