@@ -5,6 +5,9 @@ markdown-editor: text-tools
 text-diff: text-tools
 url-encoder: text-tools
 base64-encoder: text-tools
+character-counter: text-tools
+text-repeater: text-tools
+number-to-words: text-tools
 
 # Developer Tools
 json-formatter: dev-tools
@@ -19,6 +22,7 @@ color-picker: dev-tools
 password-generator: dev-tools
 http-status-lookup: dev-tools
 ssl-checker: dev-tools
+color-converter: dev-tools
 
 # Health Calculators
 bmi-calculator: health
@@ -45,6 +49,8 @@ qr-generator: media
 image-resizer: media
 unit-converter: media
 percentage-calculator: media
+binary-converter: media
+hex-converter: media
 
 # CCTV & Security Tools
 raid-calculator: cctv
@@ -69,6 +75,8 @@ age-calculator: time-date
 date-difference: time-date
 timezone-converter: time-date
 countdown-timer: time-date
+stopwatch: time-date
+timer-countdown: time-date
 
 # Developer Utilities
 uuid-generator: dev-utils
@@ -78,6 +86,8 @@ password-strength: dev-utils
 cron-generator: dev-utils
 regex-tester: dev-utils
 html-entity-encoder: dev-utils
+random-number-generator: dev-utils
+list-sorter: dev-utils
 
 # Math & Geometry
 percentage-calc: math
