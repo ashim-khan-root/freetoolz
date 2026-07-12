@@ -43,7 +43,7 @@ Security is most critical when something goes wrong — including power failures
 
 A 650VA UPS at 105W load gives approximately 45-60 minutes — enough for short outages and graceful shutdown.
 
-Use the **[UPS Runtime Calculator]({{< relref "/tools/ups-calculator" >}})** to get exact numbers for your equipment. Then check out the detailed **[UPS & Battery Backup Guide for CCTV Systems](https://aslielectronic.com/blog/ups-battery-backup-cctv-security-qatar/)** on Aslie Electronic for real-world UPS sizing examples specific to Qatar installations, including NVR + PTZ camera setups and long-runtime configurations.
+Use the **[UPS Runtime Calculator]({{< relref "/tools/ups-calculator" >}})** to get exact numbers for your equipment. Then check out the detailed **[UPS & Battery Backup Guide for CCTV Systems](https://aslielectronic.com/blog/ups-battery-backup-cctv-security-qatar/)** on Asli Electronics for real-world UPS sizing examples specific to Qatar installations, including NVR + PTZ camera setups and long-runtime configurations.
 
 ## 3. PoE Budget: Don't Overload Your Switch
 
@@ -109,7 +109,7 @@ Get accurate pricing for your specific setup with the **[Security System Cost Es
 
 Once you've planned your system, the next step is sourcing quality equipment from a reliable supplier.
 
-**[Aslie Electronic](https://aslielectronic.com/)** is a trusted security systems and electronics supplier in Qatar, offering a wide range of products including:
+**[Asli Electronics](https://aslielectronic.com/)** is a trusted security systems and electronics supplier in Qatar, offering a wide range of products including:
 
 - **CCTV cameras** — Hikvision, Dahua, and other major brands for every application
 - **NVRs and DVRs** — from 4-channel to 64-channel with RAID support
@@ -135,4 +135,4 @@ Run the numbers with the **[CCTV & Security Calculators]({{< relref "/cctv-secur
 
 ---
 
-*FreeToolz provides free online calculators for security system planning. For equipment purchasing and installation in Qatar, visit [Aslie Electronic](https://aslielectronic.com/).*
+*FreeToolz provides free online calculators for security system planning. For equipment purchasing and installation in Qatar, visit [Asli Electronics](https://aslielectronic.com/).*
