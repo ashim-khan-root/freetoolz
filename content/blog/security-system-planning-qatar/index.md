@@ -43,7 +43,7 @@ Security is most critical when something goes wrong — including power failures
 
 A 650VA UPS at 105W load gives approximately 45-60 minutes — enough for short outages and graceful shutdown.
 
-Use the **[UPS Runtime Calculator]({{< relref "/tools/ups-calculator" >}})** to get exact numbers for your equipment. Then check out the detailed **[UPS & Battery Backup Guide for CCTV Systems](https://aslielectronic.com/blog/ups-battery-backup-cctv-security-qatar/)** on Asli Electronics for real-world UPS sizing examples specific to Qatar installations, including NVR + PTZ camera setups and long-runtime configurations.
+Use the **[UPS Runtime Calculator]({{< relref "/tools/ups-calculator" >}})** to get exact numbers for your equipment. Then check out the detailed **[UPS & Battery Backup Guide for CCTV Systems](https://aslielectronics.com/blog/ups-battery-backup-cctv-security-qatar/)** on Asli Electronics for real-world UPS sizing examples specific to Qatar installations, including NVR + PTZ camera setups and long-runtime configurations.
 
 ## 3. PoE Budget: Don't Overload Your Switch
 
@@ -71,7 +71,7 @@ IP cameras can saturate a network fast. Each camera streams data constantly, and
 
 For 16 cameras at 4MP, that's 128 Mbps sustained — well beyond what most consumer routers can handle (usually max out around 100 Mbps). This is why commercial installations use dedicated VLANs and managed gigabit switches with sufficient backplane capacity.
 
-Calculate your exact bandwidth with the **[Bandwidth Calculator]({{< relref "/tools/bandwidth-calculator" >}})**. For a deeper look at network infrastructure, read the **[Network Rack & Server Cabinet Buying Guide for Qatar](https://aslielectronic.com/blog/network-rack-server-cabinet-buying-guide-qatar/)** — it covers switch selection, patch panels, cable management, and rack sizing for security installations.
+Calculate your exact bandwidth with the **[Bandwidth Calculator]({{< relref "/tools/bandwidth-calculator" >}})**. For a deeper look at network infrastructure, read the **[Network Rack & Server Cabinet Buying Guide for Qatar](https://aslielectronics.com/blog/network-rack-server-cabinet-buying-guide-qatar/)** — it covers switch selection, patch panels, cable management, and rack sizing for security installations.
 
 ## 5. Camera Placement: Field of View & Lens Selection
 
@@ -109,7 +109,7 @@ Get accurate pricing for your specific setup with the **[Security System Cost Es
 
 Once you've planned your system, the next step is sourcing quality equipment from a reliable supplier.
 
-**[Asli Electronics](https://aslielectronic.com/)** is a trusted security systems and electronics supplier in Qatar, offering a wide range of products including:
+**[Asli Electronics](https://aslielectronics.com/)** is a trusted security systems and electronics supplier in Qatar, offering a wide range of products including:
 
 - **CCTV cameras** — Hikvision, Dahua, and other major brands for every application
 - **NVRs and DVRs** — from 4-channel to 64-channel with RAID support
@@ -118,7 +118,7 @@ Once you've planned your system, the next step is sourcing quality equipment fro
 - **Access control** — biometric systems, door locks, and smart door phones
 - **Network racks & cabinets** — wall-mount and floor-standing options for any installation size
 
-Browse their full product range at **[aslielectronic.com](https://aslielectronic.com/)** — they serve both residential and commercial clients across Qatar.
+Browse their full product range at **[aslielectronics.com](https://aslielectronics.com/)** — they serve both residential and commercial clients across Qatar.
 
 ## Putting It All Together
 
@@ -135,4 +135,4 @@ Run the numbers with the **[CCTV & Security Calculators]({{< relref "/cctv-secur
 
 ---
 
-*FreeToolz provides free online calculators for security system planning. For equipment purchasing and installation in Qatar, visit [Asli Electronics](https://aslielectronic.com/).*
+*FreeToolz provides free online calculators for security system planning. For equipment purchasing and installation in Qatar, visit [Asli Electronics](https://aslielectronics.com/).*
